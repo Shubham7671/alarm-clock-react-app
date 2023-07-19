@@ -17,6 +17,6 @@ export default function Clock() {
       }, [])
 
   return (
-    <div><span style={{ padding:"5px",border:"2px solid grey"}}>Clock : {time}</span></div>
+    <div style={{marginTop:"20px"}}><span style={{ padding:"10px",border:"2px solid grey",fontWeight:"700" ,fontSize:"18px"}}>Clock : {time}</span></div>
   )
 }

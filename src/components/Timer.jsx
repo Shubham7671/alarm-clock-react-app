@@ -22,8 +22,8 @@ export default function Timer(prop) {
 
         }
         return prev - 1;
-      })
-    }, 1000 * 30);
+      }) 
+    }, 1000 * 50);
 
     let cleanInterval = () => {
       clearInterval(intervalId);
